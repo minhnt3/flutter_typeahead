@@ -91,7 +91,7 @@ class _SuggestionsSearchState<T> extends State<SuggestionsSearch<T>> {
 
   /// Loads suggestions if not already loaded.
   Future<void> load() async {
-    if (widget.controller.suggestions != null) return;
+    // if (widget.controller.suggestions != null) return;
     return reload();
   }
 
